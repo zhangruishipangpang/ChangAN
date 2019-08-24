@@ -20,6 +20,5 @@ function changeColor() {
     if (i == color.length) {
         i = 0;
     }
-    // alert(color[i]+'-'+i);
     $('.changeColor').css('color', color[i++]);
 }
