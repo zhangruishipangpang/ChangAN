@@ -1,0 +1,100 @@
+body {
+    margin: 0px;
+    padding: 0%;
+    background: url(../image/backgroundimage.jpg)no-repeat;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    background-size:cover;
+}
+
+.singup-form {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background: url("../image/u=466693873,3794665330&fm=26&gp=0.jpg");
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+}
+.singup-form h1 {
+    margin-top: 80px;
+    font-family: "Fira Code Medium";
+    color: #FFF;
+    font-size: 40px;
+}
+
+.singup-form input {
+    display: block;
+    width: 100%;
+    padding: 0 16px;
+    height: 44px;
+    text-align: center;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: "Franklin Gothic Medium";
+}
+
+#error {
+    color: #fff;
+    font-size: 13px;
+}
+
+.txtb {
+    margin: 20px 0;
+    background: rgba(255,255,255,.5);
+    border-radius: 6px;
+}
+
+.singup-btn {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    background: #487eb0;
+    color: #fff;
+    border-radius: 44px;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+.singup-btn:hover {
+    transform: scale(0.96);
+}
+
+.singup-form a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Franklin Gothic Medium";
+    font-size: 14px;
+    padding: 10px;
+    transition: 0.8s;
+    display: block;
+}
+
+.singup-form a:hover {
+    background: rgba(0,0,0,.3);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
