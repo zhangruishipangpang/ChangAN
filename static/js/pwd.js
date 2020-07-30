@@ -3,7 +3,7 @@ var u1 = "3bca06a34cbf27a10dbf5f93bb91fcda";
 var e1 = "dc06742111e1b0e74d29af3ad120a4dd";
 var p1 = "68dfbf4843be7940da3b2ddc507541f0";
 $("body").delegate("#submitBTN", "click", function () {
-
+    console.log('inter');
     window.location.href="love.html";
     retturn;
     console.log($("#username").val()+$("#password").val()+$("#email").val())
